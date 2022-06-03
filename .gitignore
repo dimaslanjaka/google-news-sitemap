@@ -1,7 +1,19 @@
+# keep all dist files
+!dist
+!dist/*
+!dist/**/*
+dist/**/*.json
+
+# yarn v2
+.yarn/**/*.tgz
+.yarn/**/*.gz
+.yarn/**/*.zip
+
 *.tgz
 *.gz
 *.zip
 *.rar
-yarn.lock
+# yarn.lock
 package-lock.json
 node_modules
+
