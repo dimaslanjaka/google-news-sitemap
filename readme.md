@@ -22,6 +22,8 @@ console.log(builder.toString());
 
 [VIEW FULL EXAMPLE](https://github.com/dimaslanjaka/google-news-sitemap/blob/master/tests/index.js)
 
+![image](https://user-images.githubusercontent.com/12471057/174967928-b5841ef9-4e6a-4acb-9b45-1c42a6a21967.png)
+
 Google News related questions? Find answers in the [Google News Help Forum](http://www.google.com/support/forum/p/news?hl=en)
 
 ## Site using this package
