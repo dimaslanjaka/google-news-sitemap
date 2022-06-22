@@ -11,5 +11,12 @@
   "license": "ISC",
   "dependencies": {
     "google-news-sitemap": "file:.."
+  },
+  "devDependencies": {
+    "@typescript-eslint/parser": "^5.29.0",
+    "eslint": "^8.18.0",
+    "prettier": "^2.7.1",
+    "ts-node": "^10.8.1",
+    "typescript": "^4.7.4"
   }
 }
