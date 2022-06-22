@@ -53,6 +53,10 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
+  "[typescript]": {
+    "editor.formatOnSave": false
+  },
+  "code-runner.clearPreviousOutput": true,
   "github.copilot.enable": {
     "typescript": true,
     "javascript": true,
