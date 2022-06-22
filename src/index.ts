@@ -59,7 +59,7 @@ export function parse(prepare: ItemType): XMLItemType {
   };
 }
 
-export interface ClassItemType {
+export interface SitemapItem {
   /**
    * Publisher or Author Name
    */
@@ -114,11 +114,19 @@ export default class GoogleNewsSitemap {
   items: ItemType[] = [];
   static date_pattern = "YYYY-MM-DDTHH:mm:ssZ";
   /**
+   * Reset sitemap data
+   */
+  clear() {
+    this.items.length = 0;
+    root.urlset.url.length = 0;
+  }
+
+  /**
    * add data to sitemap
    * @param item object information item
    * @returns
    */
-  add(item: ClassItemType) {
+  add(item: SitemapItem) {
     if (!item.title && !item.publication_name && item.publication_date) return;
     let author = "Dimas Lanjaka (Default User)";
     if (typeof item.publication_name == "string") {
