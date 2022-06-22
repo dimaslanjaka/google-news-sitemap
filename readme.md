@@ -1,5 +1,4 @@
-# Google News Sitemap Generator
-NodeJS Sitemap Generator For NodeJS
+# Google News Sitemap Generator For NodeJS
 
 ```js
 const GoogleNewsSitemap = require('google-news-sitemap');
