@@ -24,15 +24,15 @@ builder.clear();
 // add other data
 
 builder.add({
-  location: "http://example.com/article1",
+  location: "http://example.com/article3",
   title: "item 1",
-  publication_date: "May 24, 2012",
+  publication_date: "May 24, 2014",
   publication_language: "en",
   publication_name: "Dimas Lanjaka",
 });
 
 builder.add({
-  location: "http://example.com/article2",
+  location: "http://example.com/article4",
   title: "item 2",
   publication_language: "en",
   publication_date: "May 25, 2012",
