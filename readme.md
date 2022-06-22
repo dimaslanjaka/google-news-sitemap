@@ -1,5 +1,8 @@
 # Google News Sitemap Generator For NodeJS
 
+![npm](https://img.shields.io/npm/v/google-news-sitemap?style=flat-square)
+![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/dimaslanjaka/google-news-sitemap?label=GitHub%20Tag&style=flat-square)
+
 ```js
 const GoogleNewsSitemap = require('google-news-sitemap');
 const builder = new GoogleNewsSitemap();
