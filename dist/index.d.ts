@@ -36,7 +36,7 @@ export declare type XMLItemType = {
     };
 };
 export declare function parse(prepare: ItemType): XMLItemType;
-export interface ClassItemType {
+export interface SitemapItem {
     /**
      * Publisher or Author Name
      */
@@ -88,11 +88,15 @@ export default class GoogleNewsSitemap {
     items: ItemType[];
     static date_pattern: string;
     /**
+     * Reset sitemap data
+     */
+    clear(): void;
+    /**
      * add data to sitemap
      * @param item object information item
      * @returns
      */
-    add(item: ClassItemType): ItemType;
+    add(item: SitemapItem): ItemType;
     /**
      * get total sitemap data
      * @returns
