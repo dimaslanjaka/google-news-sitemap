@@ -21,6 +21,8 @@ builder.add({
 console.log(builder.toString());
 ```
 
+[VIEW FULL EXAMPLE](https://github.com/dimaslanjaka/google-news-sitemap/blob/v1.0.6/tests/index.js)
+
 Google News related questions? Find answers in the [Google News Help Forum](http://www.google.com/support/forum/p/news?hl=en)
 
 ## Site using this package
