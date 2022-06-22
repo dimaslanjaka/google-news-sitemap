@@ -21,5 +21,7 @@ builder.add({
 console.log(builder.toString());
 ```
 
+Google News related questions? Find answers in the [Google News Help Forum](http://www.google.com/support/forum/p/news?hl=en)
+
 ## Site using this package
 [www.webmanajemen.com](https://www.webmanajemen.com/sitemap-google-news.xml)
