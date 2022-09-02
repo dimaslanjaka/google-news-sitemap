@@ -15,7 +15,7 @@
     "build": "ts-node build.ts"
   },
   "dependencies": {
-    "moment": "^2.29.1",
+    "moment": "^2.29.4",
     "tslib": "^2.3.1",
     "xmlbuilder": "^15.1.1"
   },
