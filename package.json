@@ -12,7 +12,8 @@
   ],
   "scripts": {
     "test": "ts-node src/index.test.ts",
-    "build": "ts-node build.ts"
+    "build": "ts-node build.ts",
+    "update": "npx npm-check-updates -u -x chalk"
   },
   "dependencies": {
     "moment": "^2.29.4",
