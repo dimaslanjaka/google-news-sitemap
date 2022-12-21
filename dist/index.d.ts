@@ -8,7 +8,7 @@ export declare const root: {
         url: any[];
     };
 };
-export declare type UnionOfArrayElements<ARR_T extends Readonly<unknown[]>> = ARR_T[number];
+export type UnionOfArrayElements<ARR_T extends Readonly<unknown[]>> = ARR_T[number];
 declare const genres: readonly ["Blog", "OpEd", "Opinion", "PressRelease", "Satire", "UserGenerated"];
 export interface ItemType {
     loc: string;
@@ -23,8 +23,8 @@ export interface ItemType {
         keywords?: string;
     };
 }
-declare type codelang = string | keyof typeof languages;
-export declare type XMLItemType = {
+type codelang = string | keyof typeof languages;
+export type XMLItemType = {
     loc: string;
     "news:news": {
         "news:publication": {
