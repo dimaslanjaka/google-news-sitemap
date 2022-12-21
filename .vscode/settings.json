@@ -65,6 +65,12 @@
     "plaintext": false,
     "markdown": false
   },
-  "github.copilot.toggleCopilot": "on"
+  "github.copilot.toggleCopilot": "on",
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "search.exclude": {
+    "**/LICENSE": true
+  }
   //"editor.fontFamily": "Droid Sans Mono, Droid Sans Fallback"
 }

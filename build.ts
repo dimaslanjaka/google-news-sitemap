@@ -11,7 +11,7 @@ const cwd = __dirname;
 const build = () => {
   return new Promise((resolve) => {
     rm(join(__dirname, "dist"), { recursive: true, force: true }, () => {
-      const child = spawn("tsc", { cwd: __dirname, stdio: "inherit" });
+      const child = spawn("tsc", { cwd: __dirname, stdio: "inherit" }, {});
       child.on("close", () => {
         resolve(null);
       });
@@ -88,18 +88,18 @@ function spawnPromise(...args: string[]) {
         cwd: __dirname,
       });
       let stdout = "";
-      child.stdout.on("data", (chunk) => {
+      child.stdout?.on("data", (chunk) => {
         stdout += chunk;
       });
       let stderr = "";
-      child.stderr.on("data", (chunk) => {
+      child.stderr?.on("data", (chunk) => {
         stderr += chunk;
       });
       child.on("close", function (code) {
         // Should probably be 'exit', not 'close'
         // *** Process completed
         return resolve({
-          code: code,
+          code: parseInt(String(code)),
           stdout: stdout.trim(),
           stderr: stderr.trim(),
         });
