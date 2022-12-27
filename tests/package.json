@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "google-news-sitemap": "file:.."
+    "google-news-sitemap": "file:../release/google-news-sitemap.tgz"
   }
 }
