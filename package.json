@@ -7,23 +7,26 @@
   "files": [
     "dist",
     "src",
-    "*.json",
-    "*.xml"
+    "*.{js,xml,json}"
   ],
   "scripts": {
     "test": "ts-node src/index.test.ts",
     "build": "ts-node build.ts",
-    "update": "npx npm-check-updates -u -x chalk"
+    "postbuild": "node packer.js",
+    "postinstall": "node postinstall.js",
+    "update": "curl -L https://github.com/dimaslanjaka/nodejs-package-types/raw/main/.github/workflows/build-release.yml > .github/workflows/build-release.yml && curl -L https://github.com/dimaslanjaka/nodejs-package-types/raw/main/postinstall.js > postinstall.js && curl -L https://github.com/dimaslanjaka/nodejs-package-types/raw/main/packer.js > packer.js && npx npm-check-updates -u -x chalk,hexo && npm install --cache tmp/npm"
   },
   "dependencies": {
+    "fs-extra": "^11.1.0",
     "moment": "^2.29.4",
     "tslib": "^2.4.1",
+    "upath": "^2.0.1",
     "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
     "@types/cross-spawn": "^6.0.2",
-    "@typescript-eslint/eslint-plugin": "^5.47.0",
-    "@typescript-eslint/parser": "^5.47.0",
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
     "cross-spawn": "https://github.com/dimaslanjaka/node-cross-spawn/tarball/typescript",
     "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
