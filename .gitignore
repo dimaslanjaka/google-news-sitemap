@@ -20,3 +20,4 @@ tmp
 
 # include release
 !release/*.tgz
+!dist/*
