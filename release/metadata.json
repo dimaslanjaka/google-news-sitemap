@@ -4,11 +4,15 @@
     "size": "15.47 KB"
   },
   "/release/google-news-sitemap.tgz": {
-    "hash": "c70cf3728ff3f95d831525a844eb19c5dc62a03a",
-    "size": "15.47 KB"
+    "hash": "aac41a6f9476a579ca5edfca4e82a7a19e86a357",
+    "size": "15.52 KB"
   },
   "/package-lock.json": {
-    "hash": "c2b1a7e88a8612fc861dafa8303d10629a4dc1e2",
+    "hash": "904806f59fccfeca74a14eeaa96c1347bd8bd640",
     "size": "434.96 KB"
+  },
+  "/release/google-news-sitemap-1.0.8.tgz": {
+    "hash": "aac41a6f9476a579ca5edfca4e82a7a19e86a357",
+    "size": "15.52 KB"
   }
 }
