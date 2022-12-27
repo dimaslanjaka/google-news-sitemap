@@ -1,0 +1,14 @@
+{
+  "/release/google-news-sitemap-1.0.7.tgz": {
+    "hash": "72e2f80f614728c2074d86434b307fd4af2b269d",
+    "size": "15.52 KB"
+  },
+  "/release/google-news-sitemap.tgz": {
+    "hash": "72e2f80f614728c2074d86434b307fd4af2b269d",
+    "size": "15.52 KB"
+  },
+  "/package-lock.json": {
+    "hash": "5fe4f4fa11ca023b04faace4b87619df6f984a14",
+    "size": "434.96 KB"
+  }
+}

@@ -17,3 +17,6 @@ dist/**/*.json
 # package-lock.json
 node_modules
 tmp
+
+# include release
+!release/*.tgz
