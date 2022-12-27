@@ -1,6 +1,6 @@
 {
   "name": "google-news-sitemap",
-  "version": "1.0.7",
+  "version": "1.0.7-6-efa7f34",
   "description": "=== Google XML News Sitemap plugin ===\r Contributors: Dimas Lanjaka\r Contact link: +6285655667573\r Tags: post,google,seo,news,google news,sitemap,posts,plugin,search engine optimization,XML news sitemap\r Requires at least: 2.5\r Tested up to: 2.9\r Stable tag: trunk",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -30,6 +30,8 @@
     "eslint": "^8.30.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "git-command-helper": "^1.0.13",
+    "gulp": "^4.0.2",
     "prettier": "^2.8.1",
     "ts-node": "^10.9.1",
     "typescript": "^4.9.4"
