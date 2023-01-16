@@ -27,7 +27,7 @@
     "@typescript-eslint/eslint-plugin": "^5.48.1",
     "@typescript-eslint/parser": "^5.47.1",
     "cross-spawn": "https://github.com/dimaslanjaka/node-cross-spawn/tarball/typescript",
-    "eslint": "^8.31.0",
+    "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-plugin-prettier": "^4.2.1",
     "git-command-helper": "^1.1.4",
