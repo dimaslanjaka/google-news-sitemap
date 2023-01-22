@@ -35,18 +35,18 @@ const srcCommit = () => {
  * Update version based on commit
  */
 const update = () => {
-  srcCommit().then((id) => {
+  srcCommit().then((commit) => {
     git("describe", "--tags").then((data) => {
       const describe = data.stdout.trim().split("-");
       const current = pkg.version.split("-");
-      current[1] = describe[1];
-      current[2] = id;
+      current[1] = describe[1] || "0";
+      current[2] = commit;
       const newVersion = current.join("-");
       console.log("version build", newVersion);
       // pkg.version = newVersion;
       writeFile(join(__dirname, "package.json"), JSON.stringify(pkg, null, 2) + "\n", () => {
         git("add", "package*.json").then(() => {
-          git("commit", "-m", `update from ${id}`);
+          git("commit", "-m", `update from ${commit}`);
         });
       });
     });
