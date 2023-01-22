@@ -1,4 +1,4 @@
-import spawn from "cross-spawn";
+import { spawn } from "cross-spawn";
 import { rm, writeFile } from "fs";
 import { join } from "path";
 import pkg from "./package.json";
@@ -45,12 +45,8 @@ const update = () => {
       console.log("version build", newVersion);
       // pkg.version = newVersion;
       writeFile(join(__dirname, "package.json"), JSON.stringify(pkg, null, 2) + "\n", () => {
-        spawn("npm", ["install"], { cwd: join(__dirname, "tests") }).on("close", () => {
-          spawnPromise("npm", "install").then(() => {
-            git("add", "*.json").then(() => {
-              git("commit", "-m", `update from ${id}`);
-            });
-          });
+        git("add", "package*.json").then(() => {
+          git("commit", "-m", `update from ${id}`);
         });
       });
     });
