@@ -42,7 +42,8 @@ const update = () => {
       current[1] = describe[1];
       current[2] = id;
       const newVersion = current.join("-");
-      pkg.version = newVersion;
+      console.log("version build", newVersion);
+      // pkg.version = newVersion;
       writeFile(join(__dirname, "package.json"), JSON.stringify(pkg, null, 2) + "\n", () => {
         spawn("npm", ["install"], { cwd: join(__dirname, "tests") }).on("close", () => {
           spawnPromise("npm", "install").then(() => {

@@ -1,4 +1,4 @@
-const { default: GoogleNewsSitemap } = require("google-news-sitemap");
+const { default: GoogleNewsSitemap } = require("../");
 
 const builder = new GoogleNewsSitemap();
 
