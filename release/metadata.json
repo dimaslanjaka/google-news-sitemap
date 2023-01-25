@@ -19,12 +19,12 @@
   },
   "/package-lock.json": {
     "integrity": {
-      "sha1": "e9c7c047a73cf6d4d2ecb51860fd3d8e1ee8cea3",
-      "sha256": "gs0OXpzu3RUffPZ4yOIHhLH9JYt7qqluQsMZ0ji7V7o=",
-      "md5": "902e290b973824ad30be2c4548be3457",
-      "sha512": "WIn8EG7QLk7zAQNZvWA0wB1XRFIVlcsBqWdLKsHtprUpDQThW6wA7Y8ZO3w0EQ+vaIrtCpNl/MkXiyPN/QgMIQ=="
+      "sha1": "960f1154bfa4200d75205b05e51af943418afb9f",
+      "sha256": "cwjlPRtLW2O14C0yuSMVMaSPnANuRQU/BfhjFFasyqI=",
+      "md5": "f57c8575ee5edfbb095f7d7b63c123b0",
+      "sha512": "d9AI3aCu5787dgcaWTk7I1wsTJsaS59OBMu/mppaPv1ps/2bBFdA/o+rfDkY7scLag4V8vtHxGAwVyAsP0QMMA=="
     },
-    "size": "462.29 KB"
+    "size": "462.41 KB"
   },
   "/release/google-news-sitemap-1.0.8.tgz": {
     "integrity": {
