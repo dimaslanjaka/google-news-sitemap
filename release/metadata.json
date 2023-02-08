@@ -10,10 +10,10 @@
   },
   "/release/google-news-sitemap.tgz": {
     "integrity": {
-      "sha1": "52056e7a0828143c07fbb3e0cac7ddbb20dffc2f",
-      "sha256": "3bB/jXGPTsxDT27dSlRPM4divANfEDPeUK+rLoa7/9o=",
-      "md5": "2c12691c55e7204020105cded7749f3b",
-      "sha512": "2KZQOxoRHpofCFZ3vYqgGbKj6K/KOTlc59vA+SpJuzTjcPCIhBYhVBxu3Jk+KEROzC5iQD2VyfL4C+h9cKA6AQ=="
+      "sha1": "6c77b76429ebbe34e1c9b3c9b2e5d21f45177415",
+      "sha256": "PitjcMrT83ZEeJTHoSZ29t1ykNvSNmETKfTvAixxQvY=",
+      "md5": "e400aaf47d815081f59c1bf5bea1f66f",
+      "sha512": "PF5qBJVA7G8Bzm1LzRS2zSXv+NwCyGfkHrO7zuulV9g8IGy4gBIAUNGSGAH16vqgwMT0rTvAB/6H8tA+DcR7rg=="
     },
     "size": "129.52 KB"
   },
@@ -28,10 +28,10 @@
   },
   "/release/google-news-sitemap-1.0.8.tgz": {
     "integrity": {
-      "sha1": "52056e7a0828143c07fbb3e0cac7ddbb20dffc2f",
-      "sha256": "3bB/jXGPTsxDT27dSlRPM4divANfEDPeUK+rLoa7/9o=",
-      "md5": "2c12691c55e7204020105cded7749f3b",
-      "sha512": "2KZQOxoRHpofCFZ3vYqgGbKj6K/KOTlc59vA+SpJuzTjcPCIhBYhVBxu3Jk+KEROzC5iQD2VyfL4C+h9cKA6AQ=="
+      "sha1": "6c77b76429ebbe34e1c9b3c9b2e5d21f45177415",
+      "sha256": "PitjcMrT83ZEeJTHoSZ29t1ykNvSNmETKfTvAixxQvY=",
+      "md5": "e400aaf47d815081f59c1bf5bea1f66f",
+      "sha512": "PF5qBJVA7G8Bzm1LzRS2zSXv+NwCyGfkHrO7zuulV9g8IGy4gBIAUNGSGAH16vqgwMT0rTvAB/6H8tA+DcR7rg=="
     },
     "size": "129.52 KB"
   }
