@@ -6,7 +6,8 @@
   "types": "dist/index.d.ts",
   "files": [
     "dist",
-    "*.{js,xml,json}"
+    "*.{js,xml,json}",
+    "!**/*.tsbuildinfo"
   ],
   "scripts": {
     "test": "node -r ts-node/register src/index.test.ts",
