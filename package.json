@@ -27,7 +27,7 @@
     "@typescript-eslint/parser": "^5.52.0",
     "cross-spawn": "https://github.com/dimaslanjaka/node-cross-spawn/tarball/private",
     "eslint": "^8.35.0",
-    "eslint-config-prettier": "^8.6.0",
+    "eslint-config-prettier": "^8.7.0",
     "eslint-plugin-prettier": "^4.2.1",
     "git-command-helper": "^1.1.8",
     "gulp": "^4.0.2",
