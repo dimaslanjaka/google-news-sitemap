@@ -1,15 +1,15 @@
-import languages from "./languages.json";
+import languages from './languages.json';
 export declare const root: {
     urlset: {
-        "@xmlns": string;
-        "@xmlns:news": string;
-        "@xmlns:xsi": string;
-        "@xsi:schemaLocation": string;
+        '@xmlns': string;
+        '@xmlns:news': string;
+        '@xmlns:xsi': string;
+        '@xsi:schemaLocation': string;
         url: any[];
     };
 };
 export type UnionOfArrayElements<ARR_T extends Readonly<unknown[]>> = ARR_T[number];
-declare const genres: readonly ["Blog", "OpEd", "Opinion", "PressRelease", "Satire", "UserGenerated"];
+export declare const genres: readonly ["Blog", "OpEd", "Opinion", "PressRelease", "Satire", "UserGenerated"];
 export interface ItemType {
     loc: string;
     news: {
@@ -19,20 +19,20 @@ export interface ItemType {
         };
         publication_date: string;
         title: string;
-        genres?: string | typeof genres[number];
+        genres?: string | (typeof genres)[number];
         keywords?: string;
     };
 }
 type codelang = string | keyof typeof languages;
 export type XMLItemType = {
     loc: string;
-    "news:news": {
-        "news:publication": {
-            "news:name": string;
-            "news:language": codelang;
+    'news:news': {
+        'news:publication': {
+            'news:name': string;
+            'news:language': codelang;
         };
-        "news:title": string;
-        "news:publication_date": string;
+        'news:title': string;
+        'news:publication_date': string;
     };
 };
 export declare function parse(prepare: ItemType): XMLItemType;
@@ -52,7 +52,7 @@ export interface SitemapItem {
     /**
      * This tag allows you to specify genres that your news story is in. This must be in the form of a comma-separated list. Default: Blog
      */
-    genres?: string | typeof genres[number];
+    genres?: string | (typeof genres)[number];
     /**
      * Article published date
      * - YYYY-MM-DD (e.g. 1997-07-16)
@@ -81,7 +81,7 @@ export interface SitemapItem {
      */
     location: string;
 }
-export default class GoogleNewsSitemap {
+export declare class GoogleNewsSitemap {
     /**
      * Max 1000 items
      */
@@ -108,4 +108,4 @@ export default class GoogleNewsSitemap {
      */
     toString(): string;
 }
-export {};
+export default GoogleNewsSitemap;

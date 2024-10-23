@@ -1,6 +1,24 @@
-# Release `google-news-sitemap` Tarball
+# Release `google-news-sitemap` tarball
+## Releases
+| version | tarball url |
+| :--- | :--- |
+| 1.0.7 | https://github.com/dimaslanjaka/google-news-sitemap/raw/4643d9a/release/google-news-sitemap-1.0.7.tgz |
+| 1.0.8 | https://github.com/dimaslanjaka/google-news-sitemap/raw/1335c28/release/google-news-sitemap-1.0.8.tgz |
+| latest | https://github.com/dimaslanjaka/google-news-sitemap/raw/1335c28/release/google-news-sitemap.tgz |
+| latest | https://github.com/dimaslanjaka/google-news-sitemap/raw/master/release/google-news-sitemap.tgz |
 
-## Get URL of `google-news-sitemap` Release Tarball
+use this tarball with `resolutions`:
+```json
+{
+  "resolutions": {
+    "google-news-sitemap": "<url of tarball>"
+  }
+}
+```
+
+## Releases
+
+    ## Get URL of `google-news-sitemap` Release Tarball
 - select tarball file
 ![gambar](https://user-images.githubusercontent.com/12471057/203216375-8af4b5d9-00c2-40fb-8d3d-d220beaabd46.png)
 - copy raw url
