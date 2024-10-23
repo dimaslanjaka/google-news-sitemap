@@ -5,22 +5,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "command": "ts-node src/index.test.ts",
-      "env": {
-        "NODE_ENV": "development"
-      },
-      "name": "Test",
+      "command": "cross-env-shell NODE_ENV=development \"npx hexo server -p 4000 --debug\"",
+      "name": "Run test site",
       "request": "launch",
-      "type": "node-terminal"
-    },
-    {
-      "command": "hexo clean && hexo server --development",
-      "env": {
-        "NODE_ENV": "development"
-      },
-      "name": "Hexo clean server",
-      "request": "launch",
-      "type": "node-terminal"
+      "type": "node-terminal",
+      "cwd": "${workspaceFolder}/site"
     }
   ]
 }
