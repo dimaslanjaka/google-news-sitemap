@@ -5,11 +5,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "command": "cross-env-shell NODE_ENV=development \"npx hexo server -p 4000 --debug\"",
-      "name": "Run test site",
+      "command": "npm run clean",
+      "name": "clean",
       "request": "launch",
       "type": "node-terminal",
-      "cwd": "${workspaceFolder}/site"
+      "cwd": "${workspaceFolder}"
     }
   ]
 }

@@ -4,7 +4,8 @@
 | :--- | :--- |
 | 1.0.7 | https://github.com/dimaslanjaka/google-news-sitemap/raw/4643d9a/release/google-news-sitemap-1.0.7.tgz |
 | 1.0.8 | https://github.com/dimaslanjaka/google-news-sitemap/raw/1335c28/release/google-news-sitemap-1.0.8.tgz |
-| latest | https://github.com/dimaslanjaka/google-news-sitemap/raw/1335c28/release/google-news-sitemap.tgz |
+| 1.1.0 | https://github.com/dimaslanjaka/google-news-sitemap/raw/db38005/release/google-news-sitemap-1.1.0.tgz |
+| latest | https://github.com/dimaslanjaka/google-news-sitemap/raw/db38005/release/google-news-sitemap.tgz |
 | latest | https://github.com/dimaslanjaka/google-news-sitemap/raw/master/release/google-news-sitemap.tgz |
 
 use this tarball with `resolutions`:
