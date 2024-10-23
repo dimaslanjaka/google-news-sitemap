@@ -1,11 +1,10 @@
 // google-news-sitemap 1.1.1 by Dimas Lanjaka <dimaslanjaka@gmail.com> (https://www.webmanajemen.com)
+'use strict';
 
-import nodeUrl from 'url';
-import path from 'path';
-const __filename = nodeUrl.fileURLToPath(import.meta.url);
-const __dirname = path.dirname(__filename);
-import moment from 'moment';
-import xmlbuilder from 'xmlbuilder';
+Object.defineProperty(exports, '__esModule', { value: true });
+
+var moment = require('moment');
+var xmlbuilder = require('xmlbuilder');
 
 const root = {
     urlset: {
@@ -94,5 +93,9 @@ class GoogleNewsSitemap {
     }
 }
 
-export { GoogleNewsSitemap, GoogleNewsSitemap as default, genres, parse, root };
-//# sourceMappingURL=index.mjs.map
+exports.GoogleNewsSitemap = GoogleNewsSitemap;
+exports.default = GoogleNewsSitemap;
+exports.genres = genres;
+exports.parse = parse;
+exports.root = root;
+//# sourceMappingURL=index.cjs.map

@@ -36,6 +36,13 @@ const libs = {
       sourcemap: true
     },
     {
+      file: 'dist/index.cjs',
+      format: 'cjs',
+      exports: 'named',
+      banner,
+      sourcemap: true
+    },
+    {
       file: 'dist/index.mjs',
       format: 'esm',
       exports: 'named',

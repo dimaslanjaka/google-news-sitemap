@@ -1,4 +1,4 @@
-// google-news-sitemap 1.1.0 by Dimas Lanjaka <dimaslanjaka@gmail.com> (https://www.webmanajemen.com)
+// google-news-sitemap 1.1.1 by Dimas Lanjaka <dimaslanjaka@gmail.com> (https://www.webmanajemen.com)
 'use strict';
 
 Object.defineProperty(exports, '__esModule', { value: true });
